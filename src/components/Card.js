@@ -7,7 +7,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="Container">
+    <div className="Containerdiv">
      
       <div className="MovieDetails">
       <div className="movieImage1">
