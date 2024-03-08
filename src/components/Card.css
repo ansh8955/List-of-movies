@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 2rem ;
+    gap: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 2px 2px #c4c4c4;
+    background-color: black;
+    color: white;
+}
+.MovieDetails{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    padding: 1rem;
+}
+.movieImage1 img{
+    width: 100px;
+}
+.movieImage{
+    padding: 1rem;
+}
+.movieImage img{
+width: 300px;
+height: 400px;
+}
+.extraContent{
+    line-height: 1.5rem;
+}
+.cardIcon{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
+    
+}
+
+.icon:hover{
+    color: red;
+}
